@@ -9,6 +9,8 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/mallcloud?characterEncoding=utf8&useSSL=false
+    username: root
+    password:
 
 #mybatis:
 #  type-aliases-package: com.paascloud.provider.model.domain
@@ -93,4 +95,3 @@ paascloud:
         clientSecret: mallcloudClientSecret
         accessTokenValidateSeconds: 7200
         scope: "*"
-      
