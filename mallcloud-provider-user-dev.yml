@@ -8,7 +8,7 @@ spring:
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/mallcloud?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=UTC
+    url: jdbc:mysql://127.0.0.1:3306/mallcloud?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     username: root
     password:
 
