@@ -2,8 +2,6 @@ server:
   port: 7979
 
 spring:
-  application:
-    name: mallcloud-zuul-gateway
   http:
     encoding:
       charset: UTF-8
