@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: @pom.artifactId@
+    name: mallcloud-zuul-gateway
   http:
     encoding:
       charset: UTF-8
